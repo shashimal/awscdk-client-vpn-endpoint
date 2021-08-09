@@ -78,7 +78,7 @@ export class AwscdkClientVpnEndpointStack extends cdk.Stack {
     }
 
     /**
-     * Client create log group for the vpn logs
+     * Add destination routes for the VPN
      *
      */
     private addDestinationRoutes = () => {
@@ -94,7 +94,7 @@ export class AwscdkClientVpnEndpointStack extends cdk.Stack {
     }
 
     /**
-     * Client create log group for the vpn logs
+     *  Create log group for the vpn logs
      *
      */
     private createLogGroup = (): ILogGroup => {
