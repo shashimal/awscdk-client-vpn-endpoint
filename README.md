@@ -7,8 +7,8 @@ AWS Client VPN is a managed client-based VPN service that enables you to securel
 
 ## Configuration
 IClientVpnEndpointProps has to be implemented with required parameters.
-You can find the config file in **config/client-vpn-config**
-So provide your values based on your requirement. For example,
+You can find the config file in **config/client-vpn-config**.
+Provide your implementation based on your requirement. For example,
 ```
      /**
      * Name of the client VPN endpoint
