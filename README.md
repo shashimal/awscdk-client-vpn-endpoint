@@ -5,6 +5,9 @@ Purpose of this project is to automate the "Client VPN Endpoint" creation by usi
 AWS Client VPN is a managed client-based VPN service that enables you to securely access your AWS resources and resources in your on-premises network. With Client VPN, you can access your resources from any location using an OpenVPN-based VPN client.
 [more](https://docs.aws.amazon.com/vpn/latest/clientvpn-admin/what-is.html)
 
+# Architecture
+![AWS Client VPN endpoint](aws-client-vpn.png?raw=true)
+
 ## Configuration
 IClientVpnEndpointProps has to be implemented with required parameters.
 You can find the config file in **config/client-vpn-config**.
